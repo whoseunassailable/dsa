@@ -5,7 +5,7 @@ class Solution:
     def find_smallest_number(*, array_of_elements : array) -> int:
         smallest = array_of_elements[0]
         smallest_index = 0
-        for i in range (1, len(array_of_elements) - 1):
+        for i in range (1, len(array_of_elements)):
             if (array_of_elements[i] < smallest):
                 print(f"Smallest number is : {array_of_elements[i]}")
                 smallest = array_of_elements[i]
